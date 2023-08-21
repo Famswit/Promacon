@@ -1,0 +1,72 @@
+.rel{
+    width: 100%;
+  background-color: white;
+  
+    display: flex;
+}
+.rel-container{
+    width: 100%;
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, max-content));
+  justify-content: space-around;
+}
+.rel-pics{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    transition: all .2s;
+}
+.rel-pics-major{
+    margin-top: 3rem;
+    padding-left: 5rem;
+    height: 37%;
+    width: 60%;
+    z-index: 1;
+    
+}
+.rel-pics-minor{
+    z-index: 2;
+    margin-left: -9rem;
+    margin-top: 8rem;
+    width: 55%;
+    box-shadow: 0 10px 20px rgba(0,0,0,.9);
+    border: 2px solid rgb(124, 113, 113)
+}
+.rel-pics-major:hover{
+    transform: scale(1.05) translateY(.5rem);
+    z-index: 20;
+}
+.rel-pics-minor:hover{
+    transform: scale(1.05) translateY(.5rem);
+    z-index: 20;
+}
+.rel:hover .rel-pics:not(:hover){
+    transform: scale(.95);
+}
+.rel-word{
+    margin: auto 4rem;
+    width: 70%;
+    height: fit-content;
+}
+.rel-word-one{
+    color: orangered;
+    text-align: start;
+    padding-top: .7rem;
+}
+.rel-word-two{
+    text-align: start;
+    padding-top: .7rem;
+    padding-bottom: .4rem;
+}
+#button{
+    width: 10rem;
+    height: 2.5rem;
+    background-color: black;
+    margin-top: .8rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,.3);
+}
+#button:hover{
+    background-color: rgba(105, 98, 98, 0.13);
+    color: black;
+}

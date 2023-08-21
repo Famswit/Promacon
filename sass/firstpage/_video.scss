@@ -1,0 +1,21 @@
+.video{
+  background-color: white;
+    width: auto;
+    height: fit-content;
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, max-content));
+  justify-content: center;
+  grid-gap: 1rem;
+ 
+}
+.house-video{
+    width: 100%;
+}
+.video-word{
+  background-color: white;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 1.5rem;
+font-weight: bold;
+margin-top: 1rem;
+text-align: center;
+}

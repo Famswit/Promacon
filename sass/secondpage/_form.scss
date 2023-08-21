@@ -1,0 +1,161 @@
+#form-container{
+    background-color: white;
+}
+.contact-pics{
+    height: 80vh;
+    background-image: url("../img/pics1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
+.topic{
+    width: fit-content;
+    margin: 1rem auto;
+    background-color: orangered;
+}
+.topic:hover{
+    color: black;
+}
+.apply{
+    background-color: orangered;
+    width: 15vh;
+    padding: .3rem;
+    margin-top: -8rem;
+   text-align: center;
+   font-size: 1.2rem;
+   font-weight: 500;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: white;
+   cursor: pointer;
+   position: fixed;
+   z-index: 2000;
+}
+.apply:hover{
+    background-color: red;
+    color: black;
+}
+
+.contact-container{
+   width: 100%;
+    height: max-content;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, max-content));
+    grid-template-rows: 1fr ;
+    justify-content: space-evenly;
+   margin-top: 2rem;
+    z-index: 1000;
+}
+
+
+
+.form-first{
+
+    padding-left: 2%;
+    padding-top: 1rem;
+    font-size: small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    
+}
+.form-input, .form-comment{
+    background-color: rgba(128, 128, 128, 0.13);
+    color: black;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    width: 90%;
+    height: max(1rem, 2rem);
+}
+
+.company-btn{
+    margin-left: 30%;
+}
+
+.team-list{
+    width: 90%;
+    height: fit-content;
+   margin-left: 1rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
+}
+.team-title{
+margin-bottom: 1rem;
+font-size: 1.3rem;
+text-transform: uppercase;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: bold;
+
+}
+.team-person{
+    width: 19vw;
+    height: 7rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   grid-gap: 1rem;
+   font-size: .8rem;
+   font-weight: bold;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.ceo-pics{
+  width: 6rem;
+    height: 6rem;
+}
+.ceo-details{
+   margin-top: .5rem;
+}
+p{
+padding: .2rem;
+}
+
+.team-bio{
+    text-align: center;
+    width: 85%;
+   font-size: .9rem;
+   margin-bottom: 4rem;
+   line-height: 1.5rem;
+}
+
+
+
+
+.contact-list{
+    margin: 4rem 2%;
+    
+}
+.share{
+    margin: 1rem auto;
+    color: white;
+    background-color: black;
+    width: fit-content;
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    letter-spacing: 1rem;
+}
+.social{
+    width: 14.55rem;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.social-svg{
+   
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: .8rem;
+    cursor: pointer;
+}
+.visit{
+    margin-top: 5rem;
+    font-size: 1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    border-top: 2px orangered solid;
+    border-bottom: 2px orangered  solid;
+    padding: 1rem;
+}
+.visit-social{
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}

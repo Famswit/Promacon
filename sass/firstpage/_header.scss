@@ -1,0 +1,108 @@
+.comp{
+ min-height: 35rem;
+  width: auto;
+  background-image: url("../img/img2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+    background-position: center;
+    transition: 7s;
+
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animate{
+  25%{
+    background-image: url("../img/img4.jpg");
+  }
+  50%{
+    background-image: url("../img/img7.jpg");
+  }
+  75%{
+    background-image: url("../img/pics1.jpg");
+  }
+  
+  100%{
+    background-image: url("../img/pics8.jpg");
+  }
+}
+.comp-account{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, max-content));
+  justify-content: center;
+}
+.comp-name{
+  width: fit-content;
+  height: fit-content;
+  background-color: black;
+  opacity: 0.8;
+ margin-top: 30vh;
+
+
+ @media only screen and (max-width: 500px) {
+  text-align: center;
+}
+}
+.comp-word{
+  padding: .5rem;
+  color: white;
+ opacity: 1;;
+  font-weight: 900;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  position: relative;
+}
+.comp-form{
+  margin-top: 5rem;
+  color: white;
+  background-color: black;
+  opacity: .8;
+  border-radius: 10%;
+  width: 35vh;
+  height: 16rem;
+  padding: 2rem;
+  display: grid;
+  margin-left: 10rem;
+
+  @media only screen and (max-width: 500px) {
+    display: none;
+}
+}
+.comp-form-input{
+ display: grid;
+grid-gap: .5rem;
+}
+.comp-input{
+  color: white;
+  background-color: rgba(rgb(255, 255, 255), .05);
+  border-bottom: 3px solid transparent;
+}
+.comp-input:focus:invalid{
+  border-bottom: 3px solid var( --color-primary-dark);
+}
+.comp-input:focus{
+  outline: none;
+  box-shadow: 0 1rem 2rem var( --color-primary-dark);
+  border-bottom: 3px solid green;
+}
+.company-btn{
+  background-color: rgba(0, 128, 0, 0);
+  color: white;
+  font-weight: 900;
+  font-size: 1rem;
+  border-radius: 100px;
+  margin-top: .5rem;
+}
+
+.company-btn:hover{
+  background-color: var( --color-primary-dark);
+  color: black;
+}
+.company-btn:focus{
+  background-color: var( --color-primary-light);
+}

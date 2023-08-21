@@ -1,0 +1,243 @@
+.popup1{
+    width: 100%;
+   height: 100vh;
+   position: fixed;
+   top: 0;
+   left: 0;
+  background-color: rgba(black, .8);
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s ease-in;
+  overflow: scroll;
+  
+}
+.popup-content{
+    background-color: white;
+    width: 85%;
+   height: fit-content;
+   margin: 2rem auto;
+   
+}
+.popup1:target{
+    opacity: 1;
+    visibility: visible;
+    z-index: 99999;
+}
+.popup-close{
+
+}
+.popup-close:link,
+.popup-close:visited{
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: .5rem;
+    right: 1.5rem;
+    font-size: 3rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: all .2s;
+    line-height: 1;
+}
+.popup-close:hover{
+    color: white;
+}
+.pop-pics{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, max-content));
+    
+    grid-gap: .5rem;
+    justify-content: center;
+    
+}
+.pop-img{
+    width: 100%;
+    height: 80%;
+   
+}
+.bookings{
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(480px, max-content));
+    justify-content: space-evenly;
+}
+
+.pop-book{
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: rgb(151, 3, 3);
+    text-shadow: none;
+    font-weight: 900;
+    margin-top: -4rem;
+    margin-left: -15rem;
+}
+.pop-form{
+    
+    padding: 1rem;
+    width: 150%;
+    color: rgb(151, 3, 3);
+}
+.form-list{
+    padding-left: 2%;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+.pop-form-input, .pop-form-comment{
+    background-color: rgba(128, 128, 128, 0.13);
+    color: black;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    width: 60%;
+    height: 1.5rem;
+}
+#inspection{
+    background-color: rgba(128, 128, 128, 0.13);
+    color: black;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    width: 60%;
+    height: 1.5rem;
+}
+.pop-btn{
+    margin: 1rem 10vw;
+}
+.other-bookings{
+    margin-top: -4vh ;
+    font-size: 1.4rem;
+    margin-left: 1rem;
+}
+.contact-book{
+    font-size: 1.5rem;
+    color: rgb(151, 3, 3);
+  
+}
+.contact-book:hover{
+    color: black;
+}
+.pop-share{
+    width: fit-content;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    font-size: 2.5rem;
+    letter-spacing: 1.5rem;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+
+.pop-visit-address{
+    color: rgba(0, 0, 0, 0.87);
+    margin-top: -5rem;
+    text-shadow: none;
+   
+}
+.visit{
+    font-size: 1rem;
+}
+
+.popup2{
+    width: 100%;
+   height: 100vh;
+   position: fixed;
+   top: 0;
+   left: 0;
+  background-color: rgba(black, .8);
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s ease-in;
+  overflow: scroll;
+  
+}
+.popup2:target{
+    opacity: 1;
+    visibility: visible;
+    z-index: 99999;
+}
+
+
+.popup3{
+    width: 100%;
+   height: 100vh;
+   position: fixed;
+   top: 0;
+   left: 0;
+  background-color: rgba(black, .8);
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s ease-in;
+  overflow: scroll;
+  
+}
+.popup3:target{
+    opacity: 1;
+    visibility: visible;
+    z-index: 99999;
+}
+
+.popup4{
+    width: 100%;
+   height: 100vh;
+   position: fixed;
+   top: 0;
+   left: 0;
+  background-color: rgba(black, .8);
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s ease-in;
+  overflow: scroll;
+  
+}
+.popup4:target{
+    opacity: 1;
+    visibility: visible;
+    z-index: 99999;
+}
+
+
+.popup5{
+    width: 100%;
+   height: 100vh;
+   position: fixed;
+   top: 0;
+   left: 0;
+  background-color: rgba(black, .8);
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s ease-in;
+  overflow: scroll;
+  
+}
+.popup5:target{
+    opacity: 1;
+    visibility: visible;
+    z-index: 99999;
+}
+
+.popup6{
+    width: 100%;
+   height: 100vh;
+   position: fixed;
+   top: 0;
+   left: 0;
+  background-color: rgba(black, .8);
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s ease-in;
+  overflow: scroll;
+  
+}
+.popup6:target{
+    opacity: 1;
+    visibility: visible;
+    z-index: 99999;
+}
